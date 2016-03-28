@@ -4,3 +4,18 @@ page_home3.html
   Need events page
   Quicklnks inclding listserv, facebook
   Gen descriptiion
+  
+Photo gallery:
+  campaigns -> slideshow, tiles
+  
+About us Page:
+
+Brief info pages with links to program (LEDA...)
+
+Pages with links to other pages: glyph icons etc. (finanicla info...)
+
+Bios pages
+
+COntact us page
+
+Blog page?
