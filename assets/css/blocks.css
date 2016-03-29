@@ -288,7 +288,12 @@
   -o-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
 }
-
+.breadcrumbs-v4 {
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
 /*Breadcrumbs v1
 ------------------------------------*/
 .breadcrumbs-v1 {
@@ -380,8 +385,35 @@
   position: relative;
 }
 
+.breadcrumbs-v4 {
+  z-index: 1;
+  padding: 100px 0;
+  position: relative;
+}
 .breadcrumbs-v3.breadcrumbs-lg {
   padding: 200px 0;
+}
+
+.breadcrumbs-v4.img-gates {
+  background: url(../img/breadcrumbs/Gates.jpg) no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.breadcrumbs-v4:after {
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  position: absolute;
+  background: rgba(0,0,0);
+}
+
+.breadcrumbs-v4.img-quest {
+  background: url(../img/breadcrumbs/qb.gif) no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 
 .breadcrumbs-v3.img-v1 {
