@@ -1246,7 +1246,7 @@ a.btn-u-xs {
 }
 
 .btn-u.btn-u-orange {
-	 background: #ff9541;
+	 background: #ff8f00;
 }
 .btn-u.btn-u-orange:hover,
 .btn-u.btn-u-orange:focus,
@@ -1472,7 +1472,7 @@ a.btn-u-xs {
 }
 
 .btn-u.btn-brd.btn-u-orange {
-	border-color: #ff9541;
+	border-color: #ff8f00;
 }
 .btn-u.btn-brd.btn-u-orange:hover {
 	color: #d35400;
@@ -1678,7 +1678,7 @@ span.badge-sea,
 span.label-orange,
 span.badge-orange,
 .list-group-item.active>.badge.badge-orange {
-	background: #ff9541;
+	background: #ff8f00;
 }
 
 span.label-yellow,
@@ -2006,8 +2006,8 @@ i.icon-color-yellow {
 	 border: solid 1px #f1c40f;
 }
 i.icon-color-orange {
-	 color: #ff9541;
-	 border: solid 1px #ff9541;
+	 color: #ff8f00;
+	 border: solid 1px #ff8f00;
 }
 i.icon-color-grey {
 	 color: #95a5a6;
@@ -2082,7 +2082,7 @@ i.icon-bg-yellow {
 	 background: #f1c40f;
 }
 i.icon-bg-orange {
-	 background: #ff9541;
+	 background: #ff8f00;
 }
 i.icon-bg-grey {
 	 background: #95a5a6;
@@ -2375,7 +2375,7 @@ i.icon-bg-light-grey {
 	background: #f1c40f;
 }
 .service-block-orange {
-	background: #ff9541;
+	background: #ff8f00;
 }
 .service-block-green {
 	background: #2ecc71;
@@ -2533,7 +2533,7 @@ i.icon-bg-light-grey {
 
 /*Orange Left Bordered Funny Box**/
 .funny-boxes-left-orange {
-	border-left: solid 2px #ff9541;
+	border-left: solid 2px #ff8f00;
 }
 
 .funny-boxes-left-orange:hover {
@@ -2622,7 +2622,7 @@ i.icon-bg-light-grey {
 	 background: #1abc9c;
 }
 .text-highlights-orange {
-	 background: #ff9541;
+	 background: #ff8f00;
 }
 .text-highlights-yellow {
 	 background: #f1c40f;
@@ -3122,11 +3122,11 @@ blockquote.hero.hero-default small {
 
 /*Panel Orange*/
 .panel-orange {
-	 border-color: #ff9541;
+	 border-color: #ff8f00;
 }
 
 .panel-orange > .panel-heading {
-	 background: #ff9541;
+	 background: #ff8f00;
 }
 
 /*Panel Yellow*/
@@ -3258,7 +3258,7 @@ blockquote.hero.hero-default small {
 }
 
 .progress-bar-orange {
-	background: #ff9541;
+	background: #ff8f00;
 }
 
 .progress-bar-red {
@@ -3731,7 +3731,7 @@ img.image-md {
 .color-green { color: #72c02c;}
 .color-brown { color: #9c8061;}
 .color-light { color: #ffffff;}
-.color-orange { color: #ff9541;}
+.color-orange { color: #ff8f00;}
 .color-yellow { color: #f1c40f;}
 .color-green1 { color: #2ecc71;}
 .color-purple { color: #9b6bcc;}
@@ -3776,7 +3776,7 @@ img.image-md {
 .bg-color-light { background-color: #f7f7f7 !important;}
 .bg-color-green { background-color: #72c02c !important;}
 .bg-color-brown { background-color: #9c8061 !important;}
-.bg-color-orange { background-color: #ff9541 !important;}
+.bg-color-orange { background-color: #ff8f00 !important;}
 .bg-color-green1 { background-color: #2ecc71 !important;}
 .bg-color-purple { background-color: #9b6bcc !important;}
 .bg-color-dark-blue { background-color: #4765a0 !important;}
