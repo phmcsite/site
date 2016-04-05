@@ -354,7 +354,7 @@
     <!--=== End Call To Action ===-->
 
 <!--EVENTS-->
-    <div class="bg-color-light">
+    <div class="bg-color-light-grey">
         <div class="container content-md">
             <div class="row news-v2">
 <!--                EVENT 1-->
@@ -368,7 +368,7 @@
                     </div>
                     <div class="news-v2-desc">
                         <h3 id="h1"></h3>
-                        <small id=w1></small> <small id=b1></small> <small id=c1></small>
+                        <small id=w1></small> 
                         <p id=s1></p>
                     </div>
                 </div>
@@ -383,7 +383,7 @@
                     </div>
                     <div class="news-v2-desc">
                         <h3 id="h2"></h3>
-                        <small id=w2></small> <small id=b2></small> <small id=c2></small>
+                        <small id=w2></small> 
                         <p id=s2></p>
                     </div>
                 </div>
@@ -398,19 +398,21 @@
                     </div>
                     <div class="news-v2-desc">
                         <h3 id="h3"></h3>
-                        <small id=w3></small> <small id=b3></small> <small id=c3></small>
+                        <small id=w3></small> 
                         <p id=s3></p>
                     </div>
                 </div>
-            </div>
+            </div><br><br>
+            <div class="pull-right">
+            <h3><span class="color-light">Click <a href="#">here</a> to view the full calendar of events</span></h3></div>
         </div>
     </div>
     
 <!--NEW ROW IN EVENTS-->
+<!--
     <div class="bg-color-light-grey">
     <div class="container content-md">
         <div class="row news-v2">
-<!--            EVENT 1-->
             <div class="col-md-4 sm-margin-bottom-30">
                     <div class="news-v2-badge">
                         <img class="img-responsive" src="assets/img/main/img22.jpg" alt="">
@@ -421,11 +423,10 @@
                     </div>
                     <div class="news-v2-desc">
                         <h3 id="h4"></h3>
-                        <small id=w4></small> <small id=b4></small> <small id=c4></small>
+                        <small id=w4></small> 
                         <p id=s4></p>
                     </div>
                 </div>
-<!--            EVENT 2-->
             <div class="col-md-4 sm-margin-bottom-30">
                     <div class="news-v2-badge">
                         <img class="img-responsive" src="assets/img/main/img22.jpg" alt="">
@@ -436,11 +437,10 @@
                     </div>
                     <div class="news-v2-desc">
                         <h3 id="h5"></h3>
-                        <small id=w5></small> <small id=b5></small> <small id=c5></small>
+                        <small id=w5></small> 
                         <p id=s5></p>
                     </div>
                 </div>
-<!--            EVENT 3-->
             <div class="col-md-4 sm-margin-bottom-30">
                     <div class="news-v2-badge">
                         <img class="img-responsive" src="assets/img/main/img22.jpg" alt="">
@@ -451,7 +451,7 @@
                     </div>
                     <div class="news-v2-desc">
                         <h3 id="h6"></h3>
-                        <small id=w6></small> <small id=b6></small> <small id=c6></small>
+                        <small id=w6></small> 
                         <p id=s6></p>
                     </div>
                 </div>
@@ -462,6 +462,7 @@
             <h3><span class="color-light">Click <a href="#">here</a> to view the full calendar of events</span></h3></div>
         </div>
     </div>
+-->
     <!-- END EVENTS -->
 
     
@@ -617,7 +618,6 @@
     
 <script src="http://jquery-csv.googlecode.com/git/src/jquery.min.js"></script>
 
-    
 <script type="text/javascript"> 
     var url = "https://spreadsheets.google.com/feeds/cells/15g5RJ4didIqzuNCeW516vgQR4jZzsyJD4nwUBCMBGqk/1/public/values?alt=json";
 //    var members = Csonv.fetch(url);
@@ -625,18 +625,41 @@
 //      results = JSON.stringify(data)
         document.getElementById("h1").innerHTML = data.feed.entry[7].content.$t
         document.getElementById("d1").innerHTML = data.feed.entry[8].content.$t
-        document.getElementById("b1").innerHTML = data.feed.entry[9].content.$t
         document.getElementById("m1").innerHTML = data.feed.entry[10].content.$t
-        document.getElementById("w1").innerHTML = data.feed.entry[11].content.$t
-        document.getElementById("c1").innerHTML = data.feed.entry[12].content.$t
-        document.getElementById("s1").innerHTML = data.feed.entry[7].content.$t
-        
+        document.getElementById("w1").innerHTML = data.feed.entry[11].content.$t + " " + data.feed.entry[9].content.$t + " " + data.feed.entry[12].content.$t
+        document.getElementById("s1").innerHTML = data.feed.entry[13].content.$t
+        document.getElementById("h2").innerHTML = data.feed.entry[14].content.$t
+        document.getElementById("d2").innerHTML = data.feed.entry[15].content.$t
+        document.getElementById("m2").innerHTML = data.feed.entry[17].content.$t
+        document.getElementById("w2").innerHTML = data.feed.entry[18].content.$t + " " + data.feed.entry[16].content.$t + " " + data.feed.entry[19].content.$t
+        document.getElementById("s2").innerHTML = data.feed.entry[20].content.$t
+        document.getElementById("h3").innerHTML = data.feed.entry[21].content.$t
+        document.getElementById("d3").innerHTML = data.feed.entry[22].content.$t
+        document.getElementById("m3").innerHTML = data.feed.entry[24].content.$t
+        document.getElementById("w3").innerHTML = data.feed.entry[25].content.$t + " " + data.feed.entry[23].content.$t + " " + data.feed.entry[26].content.$t
+        document.getElementById("s3").innerHTML = data.feed.entry[27].content.$t
+//        document.getElementById("h4").innerHTML = data.feed.entry[28].content.$t
+//        document.getElementById("d4").innerHTML = data.feed.entry[29].content.$t
+//        document.getElementById("m4").innerHTML = data.feed.entry[31].content.$t
+//        document.getElementById("w4").innerHTML = data.feed.entry[32].content.$t + " " + data.feed.entry[30].content.$t + " " + data.feed.entry[33].content.$t
+//        document.getElementById("s4").innerHTML = data.feed.entry[34].content.$t
+//        document.getElementById("h5").innerHTML = data.feed.entry[35].content.$t 
+//        document.getElementById("d5").innerHTML = data.feed.entry[36].content.$t
+//        document.getElementById("m5").innerHTML = data1.feed.entry[38].content.$t
+//        document.getElementById("w5").innerHTML = data1.feed.entry[39].content.$t + " " + data1.feed.entry[37].content.$t + " " + data1.feed.entry[40].content.$t
+//        document.getElementById("s5").innerHTML = data1.feed.entry[41].content.$t
+//        document.getElementById("h6").innerHTML = data1.feed.entry[42].content.$t
+//        document.getElementById("d6").innerHTML = data1.feed.entry[43].content.$t
+//        document.getElementById("m6").innerHTML = data1.feed.entry[45].content.$t
+//        document.getElementById("w6").innerHTML = data1.feed.entry[46].content.$t + " " + data1.feed.entry[44].content.$t + " " + data1.feed.entry[47].content.$t
+//        document.getElementById("s6").innerHTML = data1.feed.entry[48].content.$t
         
     });
 
 </script>
     
-
+    
+   
     
 <!--[if lt IE 9]>
     <script src="assets/plugins/respond.js"></script>
