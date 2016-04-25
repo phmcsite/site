@@ -399,6 +399,22 @@
   background-size: contain;
   background-position: center center;
 }
+.breadcrumbs-v4.img-academic {
+  background: url(../img/IMG_2562.JPG) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.breadcrumbs-v4.img-finan {
+  background: url(../img/IMG_2562.JPG) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.breadcrumbs-v4.img-social {
+  background: url(../img/IMG_2562.JPG) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 .breadcrumbs-v4:after {
   top: 0;
   left: 0;

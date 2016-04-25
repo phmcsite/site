@@ -2050,6 +2050,7 @@ i.icon-bg-dark,
 i.icon-bg-darker,
 i.icon-bg-grey,
 i.icon-bg-blue,
+i.icon-bg-fb,
 i.icon-bg-green,
 i.icon-bg-yellow,
 i.icon-bg-orange,
@@ -2068,6 +2069,9 @@ i.icon-bg-u {
 }
 i.icon-bg-blue {
 	 background: #3498db;
+}
+i.icon-bg-fb {
+	 background: #3b5998;
 }
 i.icon-bg-red {
 	 background: #e74c3c;

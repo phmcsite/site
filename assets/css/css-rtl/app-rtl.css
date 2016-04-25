@@ -1883,6 +1883,7 @@ i.icon-bg-aqua,
 i.icon-bg-brown,
 i.icon-bg-dark-blue,
 i.icon-bg-light-grey,
+i.icon-bg-fb,
 i.icon-bg-light-green {
    color: #fff;
    border-color: transparent;
@@ -1893,6 +1894,9 @@ i.icon-bg-u {
 }
 i.icon-bg-blue {
    background: #3498db;
+}
+i.icon-bg-fb {
+   background: #3b5998;
 }
 i.icon-bg-red {
    background: #e74c3c;
