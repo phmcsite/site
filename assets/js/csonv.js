@@ -165,8 +165,8 @@
 </a>
 
 
-  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
-    New organization
+  <a class="dropdown-item" href="/Organizations/new" data-ga-click="Header, create new Organization">
+    New Organization
   </a>
 
 

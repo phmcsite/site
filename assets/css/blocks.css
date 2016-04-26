@@ -399,6 +399,21 @@
   background-size: contain;
   background-position: center center;
 }
+.breadcrumbs-v4.img-sifp {
+  background: url(../img/breadcrumbs/Jump.jpg) no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.breadcrumbs-v4.img-leda1 {
+  background: url(../img/breadcrumbs/leda1.jpg) no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.breadcrumbs-v4.img-leda2 {
+  background: url(../img/breadcrumbs/leda2.jpg) no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
 .breadcrumbs-v4.img-academic {
   background: url(../img/IMG_2562.JPG) no-repeat;
   background-size: cover;
